@@ -1,0 +1,8 @@
+//
+// Created by parallels on 4/7/26.
+//
+
+#ifndef BUILD_QUBE_CONTROLLER_NODE_HPP
+#define BUILD_QUBE_CONTROLLER_NODE_HPP
+
+#endif //BUILD_QUBE_CONTROLLER_NODE_HPP
