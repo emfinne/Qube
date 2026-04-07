@@ -87,9 +87,9 @@ int main(int argc, char **argv) {
 
     auto qube_controller_node = std::make_shared<qube_controller>(
       "qube_controller",
-      "/joint_state",         //sub
+      "/joint_states",         //sub
       "/velocity_controller/commands",       // pub
-      std::chrono::milliseconds(6));
+      std::chrono::milliseconds(20));
 
 
     rclcpp::executors::MultiThreadedExecutor executor;
