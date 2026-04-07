@@ -89,5 +89,6 @@ def generate_launch_description():
         ),
         qube_driver_launch,
         robot_state_publisher_node,
-        rviz_node
+        rviz_node,
+        qube_controller_node
     ])

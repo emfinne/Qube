@@ -27,7 +27,7 @@ void pidController::update()
     double ke1 = b1/a0;
     double ke2 = b2/a0;
 
-    e0=(ref/230)-(con/230);
+    e0=(100)-(con);
 
     u0=-ku1*u1-ku2*u2+ke0*e0+ke1*e1+ke2*e2;
 

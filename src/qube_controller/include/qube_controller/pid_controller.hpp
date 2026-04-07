@@ -41,7 +41,7 @@ private:
     double u2 = 0.0, u1 = 0.0, u0 = 0.0;
 
     double N = 20.0;
-    double Kp = 1.0, Ki = 1.0, Kd = 1.0;
+    double Kp = 1.0, Ki = 0.0, Kd = 0.0;
 
     delta_timer timer_;
 
