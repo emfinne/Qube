@@ -46,7 +46,14 @@ def generate_launch_description():
         executable='rviz2',
         name='rviz2',
         output='screen',
+        additional_env={"LIBGL_ALWAYS_SOFTWARE": "1"},
         arguments=['-d', rviz_config]
+    )
+
+    qube_controller_node = Node(
+        package='qube_controller',
+        executable='qube_controller_node',
+        name='conti',
     )
 
     qube_driver_launch = IncludeLaunchDescription(

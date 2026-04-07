@@ -56,13 +56,15 @@
         </link>
 
         <!-- Joints -->
-        <joint name="${prefix}stator_joint" type="fixed">
+
+
+        <joint name="${prefix}base_joint" type="fixed">
             <parent link="${prefix}base_link"/>
             <child link="${prefix}stator_link"/>
             <origin xyz="0 0 ${stator_size/2}" rpy="0 0 0"/>
         </joint>
 
-        <joint name="${prefix}angle" type="revolute">
+        <joint name="${prefix}motor_joint" type="revolute">
             <parent link="${prefix}stator_link"/>
             <child link="${prefix}rotor_link"/>
             <origin xyz="0 0 ${(stator_size/2) + (rotor_height/2)}" rpy="0 0 0"/>
@@ -70,11 +72,13 @@
             <limit lower="-3.14159" upper="3.14159" effort="1.0" velocity="1.0"/>
         </joint>
 
-        <joint name="${prefix}indicator" type="fixed">
+        <joint name="${prefix}rotor_joint" type="fixed">
             <parent link="${prefix}rotor_link"/>
             <child link="${prefix}angle_link"/>
             <origin xyz="${angle_length/2} 0 ${(rotor_height/2) + (angle_height/2)}" rpy="0 0 0"/>
         </joint>
+
+
 
     </xacro:macro>
 
