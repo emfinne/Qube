@@ -1,0 +1,52 @@
+[0.405s] Invoking command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/aleks/CLionProjects/Qube/src/qube_description -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description
+[1.311s] -- The C compiler identification is GNU 13.3.0
+[2.937s] -- The CXX compiler identification is GNU 13.3.0
+[3.698s] -- Detecting C compiler ABI info
+[5.986s] -- Detecting C compiler ABI info - done
+[6.110s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.112s] -- Detecting C compile features
+[6.117s] -- Detecting C compile features - done
+[6.440s] -- Detecting CXX compiler ABI info
+[8.773s] -- Detecting CXX compiler ABI info - done
+[8.907s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.910s] -- Detecting CXX compile features
+[8.913s] -- Detecting CXX compile features - done
+[9.105s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.771s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.870s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[14.593s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.597s] -- Configured 'flake8' exclude dirs and/or files: 
+[14.843s] -- Added test 'lint_cmake' to check CMake code style
+[14.963s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[16.316s] -- Added test 'xmllint' to check XML markup files
+[16.688s] -- Configuring done (16.2s)
+[17.713s] -- Generating done (0.9s)
+[18.260s] -- Build files have been written to: /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description
+[18.276s] Invoked command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/aleks/CLionProjects/Qube/src/qube_description -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description
+[18.305s] Invoking command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description -- -j16 -l16
+[18.683s] Invoked command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description -- -j16 -l16
+[18.745s] Invoking command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description
+[18.786s] -- Install configuration: ""
+[18.802s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/launch
+[18.900s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/launch/view_qube.launch.py
+[19.103s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/urdf
+[19.195s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/urdf/qube.macro.xacro
+[19.421s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/urdf/qube.urdf.xacro
+[19.634s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/rviz
+[19.726s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/rviz/default.rviz
+[20.038s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/ament_index/resource_index/package_run_dependencies/qube_description
+[20.375s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/ament_index/resource_index/parent_prefix_path/qube_description
+[20.645s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/environment/ament_prefix_path.sh
+[20.820s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/environment/ament_prefix_path.dsv
+[21.005s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/environment/path.sh
+[21.176s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/environment/path.dsv
+[21.360s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/local_setup.bash
+[21.526s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/local_setup.sh
+[21.691s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/local_setup.zsh
+[21.859s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/local_setup.dsv
+[22.025s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/package.dsv
+[22.271s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/ament_index/resource_index/packages/qube_description
+[22.544s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/cmake/qube_descriptionConfig.cmake
+[22.718s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/cmake/qube_descriptionConfig-version.cmake
+[22.910s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_description/share/qube_description/package.xml
+[23.079s] Invoked command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_description

@@ -1,0 +1,45 @@
+[0.268s] Invoking command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/aleks/CLionProjects/Qube/src/qube_bringup -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup
+[1.402s] -- The C compiler identification is GNU 13.3.0
+[2.861s] -- The CXX compiler identification is GNU 13.3.0
+[3.548s] -- Detecting C compiler ABI info
+[5.763s] -- Detecting C compiler ABI info - done
+[5.888s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.891s] -- Detecting C compile features
+[5.894s] -- Detecting C compile features - done
+[6.245s] -- Detecting CXX compiler ABI info
+[8.536s] -- Detecting CXX compiler ABI info - done
+[8.673s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.677s] -- Detecting CXX compile features
+[8.680s] -- Detecting CXX compile features - done
+[8.881s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[9.505s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.692s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[14.140s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.143s] -- Configured 'flake8' exclude dirs and/or files: 
+[14.294s] -- Added test 'lint_cmake' to check CMake code style
+[14.378s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.109s] -- Added test 'xmllint' to check XML markup files
+[15.495s] -- Configuring done (15.0s)
+[16.556s] -- Generating done (0.9s)
+[17.114s] -- Build files have been written to: /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup
+[17.130s] Invoked command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /mnt/c/Users/aleks/CLionProjects/Qube/src/qube_bringup -DCMAKE_INSTALL_PREFIX=/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup
+[17.155s] Invoking command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup -- -j16 -l16
+[17.546s] Invoked command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup -- -j16 -l16
+[17.610s] Invoking command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup
+[17.654s] -- Install configuration: ""
+[17.778s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/ament_index/resource_index/package_run_dependencies/qube_bringup
+[18.122s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/ament_index/resource_index/parent_prefix_path/qube_bringup
+[18.389s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/ament_prefix_path.sh
+[18.570s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/ament_prefix_path.dsv
+[18.764s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/path.sh
+[18.953s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/path.dsv
+[19.152s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/local_setup.bash
+[19.325s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/local_setup.sh
+[19.497s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/local_setup.zsh
+[19.671s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/local_setup.dsv
+[19.845s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/package.dsv
+[20.097s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/ament_index/resource_index/packages/qube_bringup
+[20.380s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/cmake/qube_bringupConfig.cmake
+[20.575s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/cmake/qube_bringupConfig-version.cmake
+[20.777s] -- Installing: /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/package.xml
+[21.827s] Invoked command in '/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /mnt/c/Users/aleks/CLionProjects/Qube/build/qube_bringup

@@ -1,0 +1,15 @@
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/ament_index/resource_index/package_run_dependencies/qube_bringup
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/ament_index/resource_index/parent_prefix_path/qube_bringup
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/ament_prefix_path.sh
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/ament_prefix_path.dsv
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/path.sh
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/path.dsv
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/local_setup.bash
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/local_setup.sh
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/local_setup.zsh
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/local_setup.dsv
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/package.dsv
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/ament_index/resource_index/packages/qube_bringup
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/cmake/qube_bringupConfig.cmake
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/cmake/qube_bringupConfig-version.cmake
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/package.xml
