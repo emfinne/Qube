@@ -1,9 +1,0 @@
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/uninstall.dir
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/qube_controller_uninstall.dir
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/test.dir
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/edit_cache.dir
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/rebuild_cache.dir
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/list_install_components.dir
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/install.dir
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/install/local.dir
-/mnt/c/Users/aleks/CLionProjects/Qube/build/qube_controller/CMakeFiles/install/strip.dir
