@@ -22,6 +22,7 @@ def generate_launch_description():
         controlled_qube_xacro,
         ' baud_rate:=', baud_rate,
         ' device:=', device,
+
         ' simulation:=', simulation
     ])
 

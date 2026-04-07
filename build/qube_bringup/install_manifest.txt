@@ -1,3 +1,4 @@
+/mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/bringup.launch.py
 /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/ament_index/resource_index/package_run_dependencies/qube_bringup
 /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/ament_index/resource_index/parent_prefix_path/qube_bringup
 /mnt/c/Users/aleks/CLionProjects/Qube/install/qube_bringup/share/qube_bringup/environment/ament_prefix_path.sh
