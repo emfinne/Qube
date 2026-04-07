@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<robot name="qube" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <!-- Include macro -->
+    <xacro:include filename="$(find qube_description)/urdf/qube.macro.xacro" />
+    <xacro:include filename="$(find qube_driver)/ros2_control/qube_driver.ros2_control.xacro" />
+
+
+    <xacro:arg name="baud_rate" default="115200"/>
+    <xacro:arg name="device" default="115200"/>
+    <xacro:arg name="simulation" default="115200"/>
+
+    <!-- World frame -->
+    <link name="world"/>
+
+    <!-- Instantiate robot -->
+    <xacro:qube prefix=""/>
+
+    <!-- Connect robot to world -->
+    <joint name="world_joint" type="fixed">
+        <parent link="world"/>
+        <child link="base_link"/>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+    </joint>
+    
+
+    <xacro:qube_driver_ros2_control
+            name="qube_driver"
+            prefix=""
+            baud_rate="${baud_rate}"
+            device="${device}"
+            simulation="${simulation}"/>
+
+</robot>
