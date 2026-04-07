@@ -59,10 +59,6 @@ install(
         DESTINATION include/${PROJECT_NAME}
 )
 
-install(
-        DIRECTORY launch/
-        DESTINATION share/${PROJECT_NAME}
-)
 
 ament_export_targets(export_${PROJECT_NAME} HAS_LIBRARY_TARGET)
 ament_package()

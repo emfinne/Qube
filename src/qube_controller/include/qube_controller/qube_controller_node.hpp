@@ -6,6 +6,7 @@
 #include "sensor_msgs/msg/joint_state.hpp"
 #include "qube_controller/pid_controller.hpp"
 #include <memory>
+#include <chrono>
 
 
 class qube_controller : public rclcpp::Node
@@ -18,7 +19,7 @@ public:
       std::chrono::milliseconds period);
 private:
 
-    void sub(const sensor_msgs::msg::JointState::SharedPtr angle);
+    void sub(const sensor_msgs::msg::JointState::SharedPtr msg);
     void pub();
 
 
