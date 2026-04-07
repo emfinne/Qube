@@ -6,7 +6,7 @@
 #define BUILD_PID_CONTROLLER_HPP
 
 #include "delta_timer.hpp"
-#include <cmath>
+
 class pidController
 {
 public:
@@ -17,17 +17,6 @@ public:
         return u0;
     };
 
-    bool setRef(double r)
-    {
-        if (-M_PI <= r && r <= M_PI)
-        {
-            ref=r;
-            return true;
-        }
-        else
-            return false;
-
-    };
 
     void setCon(double y)
     {

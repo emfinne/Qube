@@ -27,8 +27,9 @@ qube_controller::qube_controller(
 
 
 
-void qube_controller::sub(const sensor_msgs::msg::JointState::SharedPtr data)
+void qube_controller::sub(const sensor_msgs::msg::JointState::SharedPtr msg)
 {
+    pid.setCon(msg->velocity[2]);
 
 }
 
