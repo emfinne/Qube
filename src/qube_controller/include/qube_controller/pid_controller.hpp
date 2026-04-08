@@ -6,6 +6,7 @@
 #define BUILD_PID_CONTROLLER_HPP
 
 #include "delta_timer.hpp"
+#include "lowpassFilter.hpp"
 
 class pidController
 {
@@ -21,6 +22,10 @@ public:
     void setCon(double y)
     {
         con=y;
+    };
+    void setRef(double r)
+    {
+        ref=r;
     };
 
 
@@ -40,10 +45,12 @@ private:
     double e2 = 0.0, e1 = 0.0, e0 = 0.0;
     double u2 = 0.0, u1 = 0.0, u0 = 0.0;
 
-    double N = 20.0;
-    double Kp = 1.0, Ki = 0.0, Kd = 0.0;
+    double N = 1.0;
+    double Kp = 0.01, Ki = 1, Kd = 0;
 
     delta_timer timer_;
+
+    LowPassFilter lowpassFilter;
 
 };
 #endif //BUILD_PID_CONTROLLER_HPP

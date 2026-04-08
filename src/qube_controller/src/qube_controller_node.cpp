@@ -14,10 +14,11 @@ qube_controller::qube_controller(
     const std::string & node_name,
     const std::string & sub_topic,
     const std::string & pub_topic,
+    const std::string & sub_topic2,
     std::chrono::milliseconds period)
 : Node(node_name)
 {
-    initSubscribers(sub_topic);
+    initSubscribers(sub_topic,sub_topic2);
     initPublisher(pub_topic);
     initTimers(period);
 
@@ -30,6 +31,14 @@ qube_controller::qube_controller(
 void qube_controller::sub(const sensor_msgs::msg::JointState::SharedPtr msg)
 {
     pid.setCon(msg->velocity[0]);
+
+
+}
+
+void qube_controller::sub2(const std_msgs::msg::Float64::SharedPtr data)
+{
+    pid.setRef(data->data);
+
 
 }
 
@@ -48,11 +57,14 @@ void qube_controller::pub()
 
 //constructor helper methods below
 void qube_controller::initSubscribers(
-    const std::string& ref)
+    const std::string& ref,const std::string& reference)
 {
     sub_ = create_subscription<sensor_msgs::msg::JointState>(
         ref, 10,
         std::bind(&qube_controller::sub, this, std::placeholders::_1));
+    sub2_ = create_subscription<std_msgs::msg::Float64>(
+        reference, 10,
+        std::bind(&qube_controller::sub2, this, std::placeholders::_1));
 }
 
 
@@ -89,6 +101,7 @@ int main(int argc, char **argv) {
       "qube_controller",
       "/joint_states",         //sub
       "/velocity_controller/commands",       // pub
+      "/reference",         //sub
       std::chrono::milliseconds(20));
 
 

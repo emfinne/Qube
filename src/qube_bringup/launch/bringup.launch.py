@@ -56,6 +56,14 @@ def generate_launch_description():
         name='conti',
     )
 
+    reference_gui = Node(
+        package='reference_gui',
+        executable='reference_gui',
+        name='ref',
+    )
+
+
+
     qube_driver_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             PathJoinSubstitution([
@@ -90,5 +98,6 @@ def generate_launch_description():
         qube_driver_launch,
         robot_state_publisher_node,
         rviz_node,
-        qube_controller_node
+        qube_controller_node,
+        reference_gui
     ])
