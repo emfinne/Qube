@@ -45,9 +45,7 @@ private:
     //constructur helper methods
     void initSubscribers(const std::string& sub, const std::string& sub2 );
     void initPublisher(const std::string& pub);
-    void initParameters();
     void initTimers(std::chrono::milliseconds period);
-    void initServices();
 
 
 };

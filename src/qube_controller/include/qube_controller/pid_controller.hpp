@@ -1,13 +1,12 @@
-//
-// Created by parallels on 4/7/26.
-//
-
 #ifndef BUILD_PID_CONTROLLER_HPP
 #define BUILD_PID_CONTROLLER_HPP
 
 #include "delta_timer.hpp"
 #include "lowpassFilter.hpp"
 
+/**
+ * @brief Computes and updates the PID control signal
+ */
 class pidController
 {
 public:
