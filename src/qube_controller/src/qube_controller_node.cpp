@@ -1,5 +1,4 @@
 #include "../include/qube_controller/qube_controller_node.hpp"
-
 #include "rclcpp/rclcpp.hpp"
 #include "qube_controller/qube_controller_node.hpp"
 

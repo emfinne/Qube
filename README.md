@@ -16,6 +16,9 @@ This library was added as a nececary messure to filter the process variable from
 
 
 ## qube_description
+this package contains the visual and geometric description of the Quanser Qube. The package includes reusable Xacro and URDF files that define the base, rotating disk, and pointer used to represent the Qube in RViz. It also provides a launch file for quickly visualizing the model and testing its joints and movement.
+
+
 
 ## reference_gui
 The reference_gui package was vibe coded using Chatgpt to make a joint state publisher inspired slider gui. The gui makes it easy to change qube controller reference. 
