@@ -14,6 +14,9 @@ This library is used to calculate the delta time between each callback to the pi
 
 
 ## qube_description
+this package contains the visual and geometric description of the Quanser Qube. The package includes reusable Xacro and URDF files that define the base, rotating disk, and pointer used to represent the Qube in RViz. It also provides a launch file for quickly visualizing the model and testing its joints and movement.
+
+
 
 ## reference_gui
 
